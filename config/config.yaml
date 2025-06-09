@@ -1,0 +1,19 @@
+sys:
+  temp_extract_path: './temp'
+  database_path: "./db"
+  save_img_path: "./save_img"
+  max_pdf_pages: 10
+
+database_logs:
+    host: "10.248.243.162"
+    database: "ai_services"
+    password: "Vcc#2024#"
+    user: "ai_chatbot_admin"
+    port: "5432"
+    time_out: "3"
+    schema: "ai_contract_date_extractor"
+    log_table: "log_contract_date_extractor"
+
+logging:
+  log_file_path: "logs/date_extractor.log" 
+  level: "INFO"

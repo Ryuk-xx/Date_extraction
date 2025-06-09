@@ -1,0 +1,19 @@
+# Bỏ qua thư mục chứa báo cáo, log, dữ liệu tạm, môi trường ảo,...
+baocao/
+logs/
+temp/
+temp_save/
+test-data/
+venv/
+
+# Bỏ qua file log
+scan_pdf_date_extraction.log
+
+# Bỏ các file hệ thống hoặc IDE tạo ra (tuỳ chọn)
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite3
+.DS_Store
+.env
